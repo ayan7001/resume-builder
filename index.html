@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Maker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!--Input Section-->
+    <div class="input">
+      <h2>Resume Maker</h2>
+      <form class="form">
+        <input type="text" name="name" placeholder="Enter your full name" />
+        <input
+          type="text"
+          name="contact"
+          placeholder="Enter your phone number"
+        />
+        <input
+          type="text"
+          name="github"
+          placeholder="Enter your GitHub link address"
+        />
+        <input
+          type="text"
+          name="gitusername"
+          placeholder="Enter your GitHub username"
+        />
+
+        <input
+          type="text"
+          name="website"
+          placeholder="Enter your website address"
+        />
+        <input
+          type="text"
+          name="websitename"
+          placeholder="Enter your website name"
+        />
+        <input
+          type="text"
+          name="linkedin"
+          placeholder="Enter your linkedin web address"
+        />
+        <h3>education section</h3>
+        <div class="education-input">
+          <input
+            type="text"
+            name="college-name"
+            placeholder="Enter your university name"
+          />
+          <input
+            type="text"
+            name="college-degree"
+            placeholder="Enter your university degree name"
+          />
+          <input
+            type="text"
+            name="college-year"
+            placeholder="Enter your passing year"
+          />
+          <input
+            type="text"
+            name="college-grade"
+            placeholder="Enter your overall grade"
+          />
+          <input
+            type="text"
+            name="college-name2"
+            placeholder="Enter your university name"
+          />
+          <input
+            type="text"
+            name="college-degree2"
+            placeholder="Enter your university degree name"
+          />
+          <input
+            type="text"
+            name="college-year2"
+            placeholder="Enter your passing year"
+          />
+          <input
+            type="text"
+            name="college-grade2"
+            placeholder="Enter your overall grade"
+          />
+          <input
+            type="text"
+            name="college-name3"
+            placeholder="Enter your university/school name"
+          />
+          <input
+            type="text"
+            name="college-degree3"
+            placeholder="Enter your university/school degree name"
+          />
+          <input
+            type="text"
+            name="college-year3"
+            placeholder="Enter your passing year of university/school"
+          />
+          <input
+            type="text"
+            name="college-grade3"
+            placeholder="Enter your overall grade"
+          />
+        </div>
+        <input
+          type="text"
+          name="courseworks"
+          placeholder="Enter alteast 3 courses you have done"
+        />
+        <input
+          type="text"
+          name="skillsets"
+          placeholder="Enter alteast 3 skills you have"
+        />
+        <h3>For CS students</h3>
+        <input
+          type="text"
+          name="langauges"
+          placeholder="Enter alteast 3 programming languages you know"
+        />
+        <input
+          type="text"
+          name="tools"
+          placeholder="Enter alteast 3 Tools you know for example :git"
+        />
+        <input
+          type="text"
+          name="project1-name"
+          placeholder="Enter the name of your project"
+        />
+        <input
+          type="text"
+          name="project1-tool"
+          placeholder="Enter the tools you used for your project"
+        />
+        <h3>enter atleast 3 bulletpoints about your project</h3>
+        <input
+          type="text"
+          name="project1-bullet1"
+          placeholder="Enter 1st bullentpoint about your project"
+        />
+        <input
+          type="text"
+          name="project1-bullet2"
+          placeholder="Enter 2nd bullentpoint about your project"
+        />
+        <input
+          type="text"
+          name="project1-bullet3"
+          placeholder="Enter 3rd bullentpoint about your project"
+        />
+        <h3>Enter your experience now</h3>
+        <input
+          type="text"
+          name="experience1-name"
+          placeholder="Enter the organisation name"
+        />
+        <input
+          type="text"
+          name="experience1-post"
+          placeholder="Enter the position in the organisation"
+        />
+        <input
+          type="text"
+          name="experience1-duration"
+          placeholder="Enter the years you worked in there"
+        />
+        <input
+          type="text"
+          name="experience1-responsibility"
+          placeholder="Enter the responsibilities in one sentence"
+        />
+        <h3>Enter one hobby of yours</h3>
+        <input
+          type="text"
+          name="hobby"
+          placeholder="Enter the name of the hobby. for example: playing Chess"
+        />
+        <input
+          type="text"
+          name="hobby-description"
+          placeholder="how the hobby puts a positive impact on you"
+        />
+      </form>
+
+      <button id="button-print">print</button>
+    </div>
+    <!--Output Section-->
+    <div class="output">
+      <h1>Ayan Kumar Mallik</h1>
+      <div class="contact">
+        <div class="eachcontact">
+          <img src="./resources/github.svg" alt="logo" />
+          <a href="https://github.com/ayan7001">/github.com/ayan7001</a>
+        </div>
+        <div class="eachcontact">
+          <img src="./resources/code-slash.svg" alt="logo" />
+          <a href="https://ayanmallik.xyz/">ayanmallik.xyz</a>
+        </div>
+        <div class="eachcontact">
+          <img src="./resources/linkedin.svg" alt="logo" />
+          <a href="https://www.linkedin.com/in/ayanmallik/"
+            >/linkedin.com/in/ayanmallik</a
+          >
+        </div>
+        <div class="eachcontact">
+          <img src="./resources/telephone-fill.svg" alt="logo" />
+          <a href="tel:+919932208604">9932208604</a>
+        </div>
+      </div>
+      <div class="section education">
+        <div class="each-education">
+          <h2 class="output-h2">Education</h2>
+          <hr />
+
+          <div class="college-time">
+            <h3 class="college">Saroj Mohan Institute of Technology</h3>
+
+            <p class="time">July, 2016</p>
+          </div>
+          <div class="degree-grade">
+            <p class="degree">Diploma in Mechanical Engineering</p>
+
+            <p class="grade">Overall Grade Point: 7.6</p>
+          </div>
+        </div>
+        <div class="each-education">
+          <div class="college-time">
+            <h3 class="college">Sasati Nahala Abinash High School</h3>
+
+            <p class="time">July, 2014</p>
+          </div>
+          <div class="degree-grade">
+            <p class="degree">Higher Secondary Education</p>
+
+            <p class="grade">Overall percentage: 50%</p>
+          </div>
+        </div>
+        <div class="each-education">
+          <div class="college-time">
+            <h3 class="college">Sasati Nahala Abinash High School</h3>
+
+            <p class="time">July, 2010</p>
+          </div>
+          <div class="degree-grade">
+            <p class="degree">Secondary Education</p>
+
+            <p class="grade">Overall percentage: 63.5%</p>
+          </div>
+        </div>
+        <h2 class="output-h2">Coursework</h2>
+
+        <div class="courses">
+          <h3 class="college">Courses:</h3>
+          <p>
+            The Complete Web Development Bootcamp, Advanced JavaScript, Content
+            Writing, SEO copywriting, SEO strategies
+          </p>
+        </div>
+      </div>
+      <div class="each-education">
+        <h2 class="output-h2">Skills</h2>
+        <hr />
+        <div class="courses skills">
+          <h3 class="college">Languages:</h3>
+          <p>HTML5, CSS, JavaScript, Bootstrap, jQuery</p>
+        </div>
+        <div class="courses skills">
+          <h3 class="college">Tools:</h3>
+          <p>GitHub, VS Code, Linux</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="output-h2">Projects</h2>
+        <hr />
+        <div class="each-project">
+          <div class="name-tool-date">
+            <div class="name-tool">
+              <h3 class="college">Resume Builder</h3>
+              <p>| HTML5, CSS, Vanilla JavaScript</p>
+            </div>
+            <p>February,2024</p>
+          </div>
+          <div class="bulletpoints">
+            <ul>
+              <li>Easy-to-interact interface to input the data.</li>
+              <li>Users can save the document as PDF or print it.</li>
+              <li>No sign-up is required.</li>
+
+              <li>
+                live preview available at
+                <a
+                  href="https://ayan7001.github.io/to-do-list/"
+                  class="project-anchor"
+                  >github.io</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="each-project">
+          <div class="name-tool-date">
+            <div class="name-tool">
+              <h3 class="college">To-do list</h3>
+              <p>| HTML5, CSS, Vanilla JavaScript, Bootstrap</p>
+            </div>
+            <p>Janyary,2024</p>
+          </div>
+          <div class="bulletpoints">
+            <ul>
+              <li>Clean and modern design for effortless task management</li>
+              <li>Easily add, edit, and delete tasks on the go</li>
+              <li>Utilizes local storage to retain tasks across sessions</li>
+              <li>
+                Seamlessly adapts to various screen sizes for a consistent user
+                experience
+              </li>
+              <li>
+                live preview available at
+                <a
+                  href="https://ayan7001.github.io/to-do-list/"
+                  class="project-anchor"
+                  >github.io</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="each-project">
+          <div class="name-tool-date">
+            <div class="name-tool">
+              <h3 class="college">Tiny Calculator</h3>
+              <p>| HTML5, CSS, Vanilla JavaScript</p>
+            </div>
+            <p>September,2023</p>
+          </div>
+          <div class="bulletpoints">
+            <ul>
+              <li>
+                Designed with a clean and minimalist interface for ease of use
+                and aesthetic appeal.
+              </li>
+
+              <li>
+                Capable of performing basic mathematical operations such as
+                addition, subtraction, multiplication, and division.
+              </li>
+              <li>
+                Incorporated error handling to prevent invalid inputs and
+                enhance user experience.
+              </li>
+              <li>
+                live preview available at
+                <a
+                  href="https://ayan7001.github.io/tiny_calculator/"
+                  class="project-anchor"
+                  >github.io</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="output-h2">Experience</h2>
+        <hr />
+        <div class="each-project">
+          <div class="name-tool-date">
+            <div class="name-tool">
+              <h3 class="college experience-industry">
+                Kopell Grounding Systems Private Limited
+              </h3>
+              <p>| Junior Engineer</p>
+            </div>
+            <p>Jan. 2018-Dec.2021</p>
+          </div>
+          <div class="bulletpoints experience-role">
+            <p>Involved in Quality Control & Sales</p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="output-h2">Hobbies</h2>
+        <div class="each-project">
+          <div class="name-tool-date">
+            <div class="name-tool">
+              <h3 class="college experience-industry">Playing Chess</h3>
+            </div>
+          </div>
+          <div class="bulletpoints experience-role">
+            <p>
+              Putting my in-game opponent into trouble makes me happy in my
+              spare time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js" charset="UTF-8"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.output {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  color: black;
+  text-decoration-color: black;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+.eachcontact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+.section {
+  width: 100%;
+}
+hr {
+  width: 100%;
+
+  border: 1px solid black;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+.each-education {
+  margin-top: 6px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.college-time,
+.degree-grade {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 6px;
+}
+.skills {
+  align-items: center !important;
+}
+.each-project {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-tool-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-tool {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bulletpoints {
+  width: 90%;
+}
+.project-anchor {
+  color: blue;
+  text-decoration-color: blue;
+}
+.experience-role {
+  width: 100% !important;
+}
+.experience-industry {
+  text-transform: capitalize !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.education-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+input {
+  width: 100%;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  color: grey;
+}
