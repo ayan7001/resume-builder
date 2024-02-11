@@ -2,6 +2,8 @@
   font-family: "Inter", sans-serif;
   margin: 0px;
   padding: 0px;
+  letter-spacing: 0.03em;
+  line-height: 1.35em;
 }
 .output {
   width: 100%;
@@ -12,6 +14,7 @@
   align-items: center;
 }
 .contact {
+  margin-top: 14px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -42,7 +45,6 @@ hr {
   padding-top: 0px;
 }
 .each-education {
-  margin-top: 6px;
   width: 100%;
 
   display: flex;
@@ -52,6 +54,7 @@ hr {
 }
 .college-time,
 .degree-grade {
+  margin-top: 6px;
   width: 90%;
   margin-left: 5%;
   display: flex;
@@ -59,6 +62,7 @@ hr {
   align-items: center;
 }
 .courses {
+  margin-top: 6px;
   width: 90%;
   margin-left: 5%;
   display: flex;
@@ -84,7 +88,8 @@ hr {
   align-items: center;
 }
 .name-tool {
-  width: 80%;
+  margin-top: 10px;
+  width: 70%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -119,4 +124,25 @@ input {
   border-radius: 6px;
   border: 1px solid grey;
   color: grey;
+}
+.output-h2 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 17px;
+}
+ul {
+  margin-bottom: 6px;
+  letter-spacing: 0.03em;
+  line-height: 1.45em;
+}
+.college {
+  font-weight: 600;
+  font-size: 16px;
+}
+p {
+  letter-spacing: 0.03em;
+}
+.smallpara {
+  font-size: 15px !important;
 }
